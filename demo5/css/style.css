@@ -66,7 +66,7 @@ h6 {
     letter-spacing: 0;
     font-weight: normal;
     position: relative;
-    padding: 0 0 10px 0;
+    padding: 0px 40px 0px 0px;
     font-weight: normal;
     line-height: normal;
     color: #111111;
@@ -132,7 +132,7 @@ p {
     margin: 20px;
     font-weight: 300;
     font-size: 15px;
-    line-height: 24px;
+    line-height: 15px;
 }
 
 a {
@@ -230,7 +230,7 @@ button {
 }
 
 .bg-light {
-    background-color: #021239 !important;
+    background-color: #0ed145 !important;
 }
 
 .navbar {
@@ -255,7 +255,7 @@ button {
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #e8531f;
+    color: #000000;
 }
 
 .banner_section {
@@ -302,7 +302,7 @@ button {
 
 .more_bt a:hover {
     color: #ffffff;
-    background-color: #e8531f;
+    background-color: #0ed145;
 }
 
 .contact_bt {
@@ -325,19 +325,19 @@ button {
 
 .contact_bt a:hover {
     color: #ffffff;
-    background-color: #e8531f;
+    background-color: #000000;
 }
 
 .contact_bt.active a {
     color: #ffffff;
-    background-color: #e8531f;
+    background-color: #0ed145;
 }
 
 #main_slider .carousel-control-prev:hover,
 #main_slider .carousel-control-next:hover,
 #main_slider .carousel-control-prev:focus,
 #main_slider .carousel-control-next:focus {
-    background-color: #e8531f;
+    background-color: #000000;
     color: #ffffff;
 }
 
@@ -345,7 +345,7 @@ button {
     position: absolute;
     left: 1030px;
     top: 67%;
-    background-color: #e8531f;
+    background-color: #0ed145;
 }
 
 #main_slider a.carousel-control-next {
@@ -358,11 +358,11 @@ button {
 #main_slider .carousel-control-next {
     width: 68px;
     height: 68px;
-    background: #111111;
+    background: #0ed145;
     opacity: 1;
     font-size: 30px;
     color: #ffffff;
-    border-radius: 100%;
+    border-radius: 25%;
 }
 
 .about_section {
@@ -386,6 +386,7 @@ button {
 }
 
 .about_text {
+    font-family: monospace;
     width: 100%;
     float: left;
     font-size: 16px;
@@ -395,7 +396,7 @@ button {
 
 .contact_bt a:hover {
     color: #ffffff;
-    background-color: #e8531f;
+    background-color: #000000;
 }
 
 .about_bt {
@@ -409,16 +410,16 @@ button {
     float: left;
     font-size: 16px;
     color: #f9f9f9;
-    background-color: #e8531f;
+    background-color: #0ed145;
     text-transform: uppercase;
     text-align: center;
     padding: 10px 0px;
-    border-radius: 5px;
+    border-radius: 74px;
 }
 
 .about_bt a:hover {
     color: #f9f9f9;
-    background-color: #111111;
+    background-color: #000000;
 }
 
 .about_img {
@@ -429,7 +430,7 @@ button {
 .about_img::after {
     content: '';
     position: absolute;
-    background-color: #efefef;
+    background-color: #0ed1457a;
     width: 700px;
     height: 600px;
     margin: 0 auto;
@@ -449,7 +450,7 @@ button {
 .services_section:after {
     content: '';
     position: absolute;
-    background-color: #efefef;
+    background-color: #0ed1457a;
     width: 630px;
     height: 600px;
     border-radius: 520px;
@@ -474,7 +475,7 @@ button {
 .services_text {
     width: 100%;
     float: left;
-    font-size: 16px;
+    font-size: 18px;
     color: #090a0b;
     text-align: center;
     margin: 0px;
@@ -512,7 +513,7 @@ button {
     float: left;
     font-size: 18px;
     color: #ffffff;
-    background-color: #e8531f;
+    background-color: #0ed145;
     padding: 8px 5px;
     border-radius: 10px;
     text-align: center;
@@ -595,7 +596,7 @@ button {
     float: left;
     font-size: 40px;
     color: #191919;
-    text-align: center;
+    text-align: left;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -608,9 +609,9 @@ button {
 
 .project_menu ul {
     margin: 0px;
-    padding: 0px;
+    padding: 10px;
     display: inline-block;
-    text-align: center;
+    text-align: left;
 }
 
 .project_menu li {
@@ -623,18 +624,18 @@ button {
 }
 
 .project_menu li a {
-    color: #202020;
+    color: #191919;
     padding: 10px 15px;
 }
 
 .project_menu li a:hover {
     color: #ffffff;
-    background-color: #e8531f;
+    background-color: #0ed145;
 }
 
 .project_menu li.active a {
     color: #ffffff;
-    background-color: #e8531f;
+    background-color: #0ed145;
 }
 
 .project_section_2 {
@@ -659,7 +660,7 @@ button {
     float: left;
     font-size: 40px;
     color: #191919;
-    text-align: center;
+    text-align: right;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -669,7 +670,7 @@ button {
     float: left;
     font-size: 16px;
     color: #090a0b;
-    text-align: center;
+    text-align: right;
     margin: 0 auto;
 }
 
@@ -712,7 +713,7 @@ button {
     float: left;
     font-size: 30px;
     text-align: center;
-    background-color: #e8531f;
+    background-color: #0ed145;
     color: #fffcf4;
     border-radius: 10px;
     padding: 20px 0px;
@@ -747,15 +748,20 @@ button {
 #my_slider .carousel-control-next:hover,
 #my_slider .carousel-control-prev:focus,
 #my_slider .carousel-control-next:focus {
-    background-color: #e8531f;
+    background-color: #000000;
     color: #ffffff;
+}
+
+
+#my_slider img {
+    border-radius: 50px;
 }
 
 #my_slider a.carousel-control-prev {
     position: absolute;
     left: 87px;
     top: 45%;
-    background-color: #e8531f;
+    background-color: #0ed145;
 }
 
 #my_slider a.carousel-control-next {
@@ -768,7 +774,7 @@ button {
 #my_slider .carousel-control-next {
     width: 68px;
     height: 68px;
-    background: #e8531f;
+    background: #0ed145;
     opacity: 1;
     font-size: 20px;
     color: #ffffff;
@@ -798,7 +804,7 @@ button {
 .contact_section_2 {
     width: 100%;
     float: left;
-    background-color: #efefef;
+    background-color: #8ce7a0;
     height: auto;
     padding: 40px 0px;
     margin-top: 50px;
@@ -871,7 +877,7 @@ textarea.massage_box::placeholder {
 .newslatter_section {
     width: 100%;
     float: left;
-    background-color: #e8531f;
+    background-color: #0ed145;
     padding: 30px 0px;
     height: auto;
 }
@@ -978,7 +984,7 @@ textarea.massage_box::placeholder {
     width: 100%;
     float: left;
     font-size: 20px;
-    color: #e07c06;
+    color: #0ed145;
     text-align: center;
     font-weight: 700;
 }
@@ -996,7 +1002,7 @@ textarea.massage_box::placeholder {
 
 .carousel-indicators .active {
     background-color: transparent !important;
-    border: 3px solid #e07c06;
+    border: 3px solid #0ed145;
     padding: 10px;
     top: -6px;
 }
@@ -1010,7 +1016,7 @@ textarea.massage_box::placeholder {
     margin-right: 3px;
     margin-left: 3px;
     text-indent: -999px;
-    background-color: #e07c06;
+    background-color: #0ed145;
     border-radius: 100px;
 }
 
@@ -1051,7 +1057,7 @@ textarea.massage_box::placeholder {
 .copyright_section {
     width: 100%;
     float: left;
-    background-color: #e8531f;
+    background-color: #0ed145;
     height: auto;
 }
 
@@ -1078,4 +1084,8 @@ textarea.massage_box::placeholder {
 
 .margin_90 {
     margin: 90px 0px;
+}
+
+div #Reunat {
+    border-style: solid;
 }
