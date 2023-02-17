@@ -648,6 +648,8 @@ button {
     width: 100%;
     float: left;
     text-align: center;
+    border-style: solid;
+    border-color: #0ed145;
 }
 
 .philosophy_section {
@@ -1084,8 +1086,4 @@ textarea.massage_box::placeholder {
 
 .margin_90 {
     margin: 90px 0px;
-}
-
-div #Reunat {
-    border-style: solid;
 }
