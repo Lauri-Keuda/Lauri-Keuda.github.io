@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kotisivu/static/css/main.feb7d541.css",
-    "main.js": "/kotisivu/static/js/main.2db66c51.js",
+    "main.css": "/kotisivu/static/css/main.be22c606.css",
+    "main.js": "/kotisivu/static/js/main.c6e09e60.js",
     "static/js/787.2834b9cf.chunk.js": "/kotisivu/static/js/787.2834b9cf.chunk.js",
     "static/media/keksi.gif": "/kotisivu/static/media/keksi.79d16bb5bb0e3f6fe64d.gif",
     "static/media/Makkara.jpg": "/kotisivu/static/media/Makkara.9c6c1709840d27fc5b85.jpg",
@@ -13,12 +13,12 @@
     "static/media/lataa.png": "/kotisivu/static/media/lataa.3d0e99c90ff567348e12.png",
     "static/media/jakoavain.jpg": "/kotisivu/static/media/jakoavain.7fa945ed9bae7e97f4eb.jpg",
     "index.html": "/kotisivu/index.html",
-    "main.feb7d541.css.map": "/kotisivu/static/css/main.feb7d541.css.map",
-    "main.2db66c51.js.map": "/kotisivu/static/js/main.2db66c51.js.map",
+    "main.be22c606.css.map": "/kotisivu/static/css/main.be22c606.css.map",
+    "main.c6e09e60.js.map": "/kotisivu/static/js/main.c6e09e60.js.map",
     "787.2834b9cf.chunk.js.map": "/kotisivu/static/js/787.2834b9cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.feb7d541.css",
-    "static/js/main.2db66c51.js"
+    "static/css/main.be22c606.css",
+    "static/js/main.c6e09e60.js"
   ]
 }
