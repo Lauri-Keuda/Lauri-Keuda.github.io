@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+//import './App.css';
+
+import React from 'react';
+import './Style.css';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Contact from './pages/Contact';
+import Home from './pages/Home';
+import Something from './pages/Something';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <div>
+          <Navbar />
+          <Routes>
+            <Route path="/kotisivu" Component={Home} />
+            <Route path="/contact" Component={Contact} />
+            <Route path='/something' Component={Something} />
+          </Routes>
+        </div>
+      </Router>
+      <Footer />
     </div>
   );
 }

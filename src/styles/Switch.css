@@ -1,0 +1,27 @@
+
+.Switch-body {
+    display: inline-block;
+
+    border-color:#c0c0c0;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 3px;
+
+    margin-right: auto;
+
+    width: 60px;
+    height: 32px;
+}
+
+.Switch-inner {
+    border-color: #c0c0c0;
+    background-color: #c0c0c0;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 3px;
+
+    height: 18px;
+    width: 18px;
+
+    margin: 4px auto 4px 6px; /*30px*/
+}
