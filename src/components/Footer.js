@@ -8,7 +8,7 @@ function Footer() {
       <h3 className='Foot-header'>Web Page</h3>
       <ul className='Foot-list'>
         <li>Email</li>
-        <li>Company</li>
+        <li>Contact</li>
         <li>Review</li>
       </ul>
     </div>

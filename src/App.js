@@ -9,7 +9,7 @@ import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Something from './pages/Something';
 import Discordbot from './pages/Discordbot';
-
+import Blender from './pages/Blender';
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
             <Route path="/contact" Component={Contact} />
             <Route path='/something' Component={Something} />
             <Route path='/discordbot' Component={Discordbot} />
+            <Route path='/blender' Component={Blender} />
           </Routes>
         </div>
       </Router>

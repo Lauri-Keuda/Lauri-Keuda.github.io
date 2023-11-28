@@ -1,12 +1,12 @@
 import React from 'react'
 
-function Discordbot() {
+function Blender() {
   return (
     <div className='Page'>
-        <h2>Tämä on discord botin esittely sivu</h2>
+        <h2>Tämä on blender juttujen esittely sivu</h2>
         <p>Tämä on vielä kesken</p>
     </div>
   )
 }
 
-export default Discordbot
+export default Blender

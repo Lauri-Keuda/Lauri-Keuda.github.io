@@ -9,11 +9,12 @@ function switchVisible(switchVisible){
   }
 }
 
-function handleClick() {
-  window.location.pathname = '/discordbot';
-}
-
 function ContentBox(props) {
+
+  function handleClick() {
+    window.location.pathname = props.path;
+  }
+
   return (
     <div className='CntBox'>
       <img className="CntBox-image" src={require(`../images/${props.cover}`)} alt='something went wrong' />
