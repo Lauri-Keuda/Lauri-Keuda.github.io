@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/kotisivu/static/css/main.17271f0c.css",
-    "main.js": "/kotisivu/static/js/main.06c52ddb.js",
+    "main.js": "/kotisivu/static/js/main.e64fb32e.js",
     "static/js/787.2834b9cf.chunk.js": "/kotisivu/static/js/787.2834b9cf.chunk.js",
     "static/media/keksi.gif": "/kotisivu/static/media/keksi.79d16bb5bb0e3f6fe64d.gif",
     "static/media/concrete_floor.jpg": "/kotisivu/static/media/concrete_floor.778ffc2f882b9fc1be54.jpg",
     "static/media/Daihatsu.png": "/kotisivu/static/media/Daihatsu.a746bc9907d1dd4c74d5.png",
+    "static/media/täysikuu.jpg": "/kotisivu/static/media/täysikuu.5cedd778dc987c0154e9.jpg",
     "static/media/windows.jpeg": "/kotisivu/static/media/windows.644a9f91b596feaaf24b.jpeg",
     "static/media/KasKgts.jpg": "/kotisivu/static/media/KasKgts.1fa2328534bf04fc6136.jpg",
-    "static/media/hindenburg.jpg": "/kotisivu/static/media/hindenburg.eb14810c10785c1ffec9.jpg",
     "static/media/lataa.png": "/kotisivu/static/media/lataa.3d0e99c90ff567348e12.png",
     "static/media/discordBot.png": "/kotisivu/static/media/discordBot.1a43c04ec120166bbff3.png",
     "static/media/jakoavain.jpg": "/kotisivu/static/media/jakoavain.7fa945ed9bae7e97f4eb.jpg",
     "index.html": "/kotisivu/index.html",
     "main.17271f0c.css.map": "/kotisivu/static/css/main.17271f0c.css.map",
-    "main.06c52ddb.js.map": "/kotisivu/static/js/main.06c52ddb.js.map",
+    "main.e64fb32e.js.map": "/kotisivu/static/js/main.e64fb32e.js.map",
     "787.2834b9cf.chunk.js.map": "/kotisivu/static/js/787.2834b9cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17271f0c.css",
-    "static/js/main.06c52ddb.js"
+    "static/js/main.e64fb32e.js"
   ]
 }
