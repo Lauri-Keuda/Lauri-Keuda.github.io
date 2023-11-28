@@ -1,17 +1,20 @@
 export default [
     {
-        cover: "windows.jpeg",
-        title: "Windows wallpaper",
-        description: "Tekstiä...Tekstiä... Tekstiä... Tekstiä... Tekstiä... Tekstiä... Tekstiä... Tekstiä... Tekstiä... Tekstiä... "
+        cover: "discordBot.png",
+        title: "Discord bot",
+        description: "Discord keskustelu botti, joka on tehty pythonilla.",
+        switchVisible: false
     },
     {
         cover: "KasKgts.jpg",
-        title: "Another wallpaper",
-        description: "Tekstiä..."
+        title: "Wallpaper",
+        description: "Tekstiä...",
+        switchVisible: true
     },
     {
         cover: "keksi.gif",
         title: "Keksi",
-        description: "Tähän vois tulla lisää tietoa vaikka siitä, miten tuo on tehty..."
+        description: "Harjoitus projekti, jonka tein blenderillä.",
+        switchVisible: false
     }
 ]

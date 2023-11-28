@@ -1,6 +1,18 @@
 import React from 'react'
 import Switch from './Switch.js'
 
+function switchVisible(switchVisible){
+  if (switchVisible) {
+    return <Switch />;
+  } else {
+    return "";
+  }
+}
+
+function handleClick() {
+  window.location.pathname = '/discordbot';
+}
+
 function ContentBox(props) {
   return (
     <div className='CntBox'>
@@ -9,8 +21,8 @@ function ContentBox(props) {
         <h4>{props.title}</h4>
         <p>{props.description}</p>
         <div className='CntBox-options'>
-          <Switch />
-          <btn className='CntBox-btn'>Button</btn>
+          {switchVisible(props.switchVisible)}
+          <btn className='CntBox-btn' onClick={handleClick}>Siirry</btn>
         </div>
       </div>
     </div>
@@ -18,3 +30,9 @@ function ContentBox(props) {
 }
 
 export default ContentBox
+
+{/*
+
+
+
+*/}

@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Something from './pages/Something';
+import Discordbot from './pages/Discordbot';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path="/kotisivu" Component={Home} />
             <Route path="/contact" Component={Contact} />
             <Route path='/something' Component={Something} />
+            <Route path='/discordbot' Component={Discordbot} />
           </Routes>
         </div>
       </Router>

@@ -3,12 +3,12 @@ import Style from "../styles/Switch.css"
 
 export default function Switch() {
 
-const buttonBodyClicked = {borderColor: '#505050'}
+  const buttonBodyClicked = {borderColor: '#505050'};
   const buttonInnerClicked = {
     marginLeft: '30px',
     borderColor: '#505050',
     backgroundColor: '#505050'
-  }
+  };
 
   const [isClicked, setIsClicked] = useState(false);
 

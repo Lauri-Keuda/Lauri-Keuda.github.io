@@ -4,8 +4,8 @@ import Logo from '../images/Logo.png'
 function Footer() {
   return (
     <div className="Foot-main">
+      {/* <img src={Logo} alt='logo' /> */}
       <h3 className='Foot-header'>Web Page</h3>
-      <img src={Logo} alt='logo' />
       <ul className='Foot-list'>
         <li>Email</li>
         <li>Company</li>
