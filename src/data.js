@@ -9,7 +9,7 @@ export default [
     {
         cover: "KasKgts.jpg",
         title: "Wallpaper",
-        description: "Tekstiä...",
+        description: "Tähän tulee likki mun tekemään peliin.\nhttps://lauri-keuda.github.io/MiniGames/FlappyBird/",
         switchVisible: true,
         path: '/kotisivu'
     },
