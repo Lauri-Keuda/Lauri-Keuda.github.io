@@ -7,11 +7,11 @@ export default [
         path: '/discordbot'
     },
     {
-        cover: "KasKgts.jpg",
-        title: "Wallpaper",
-        description: "Tähän tulee likki mun tekemään peliin.\nhttps://lauri-keuda.github.io/MiniGames/FlappyBird/",
-        switchVisible: true,
-        path: '/kotisivu'
+        cover: "flappybird.png",
+        title: "FlappyBird",
+        description: "Tähän on käytetty pelkästään JavaScript, HTML ja CSS",
+        switchVisible: false,
+        path: 'https://lauri-keuda.github.io/MiniGames/FlappyBird/'
     },
     {
         cover: "keksi.gif",

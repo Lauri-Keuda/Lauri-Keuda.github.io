@@ -23,6 +23,7 @@ function App() {
             <Route path='/something' Component={Something} />
             <Route path='/discordbot' Component={Discordbot} />
             <Route path='/blender' Component={Blender} />
+            <Route path='/game' to="https://lauri-keuda.github.io/MiniGames/FlappyBird/" />
           </Routes>
         </div>
       </Router>
