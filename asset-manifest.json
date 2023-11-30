@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kotisivu/static/css/main.4fecc3b7.css",
-    "main.js": "/kotisivu/static/js/main.31e1596d.js",
+    "main.js": "/kotisivu/static/js/main.3a2fd93d.js",
     "static/js/787.2834b9cf.chunk.js": "/kotisivu/static/js/787.2834b9cf.chunk.js",
     "static/media/keksi.gif": "/kotisivu/static/media/keksi.79d16bb5bb0e3f6fe64d.gif",
     "static/media/concrete_floor.jpg": "/kotisivu/static/media/concrete_floor.778ffc2f882b9fc1be54.jpg",
@@ -14,11 +14,11 @@
     "static/media/jakoavain.jpg": "/kotisivu/static/media/jakoavain.7fa945ed9bae7e97f4eb.jpg",
     "index.html": "/kotisivu/index.html",
     "main.4fecc3b7.css.map": "/kotisivu/static/css/main.4fecc3b7.css.map",
-    "main.31e1596d.js.map": "/kotisivu/static/js/main.31e1596d.js.map",
+    "main.3a2fd93d.js.map": "/kotisivu/static/js/main.3a2fd93d.js.map",
     "787.2834b9cf.chunk.js.map": "/kotisivu/static/js/787.2834b9cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4fecc3b7.css",
-    "static/js/main.31e1596d.js"
+    "static/js/main.3a2fd93d.js"
   ]
 }
