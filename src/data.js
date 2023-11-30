@@ -9,7 +9,7 @@ export default [
     {
         cover: "flappybird.png",
         title: "FlappyBird",
-        description: "Tähän on käytetty pelkästään JavaScript, HTML ja CSS. https://lauri-keuda.github.io/MiniGames/FlappyBird/",
+        description: "Tähän on käytetty pelkästään JavaScript, HTML ja CSS. https://lauri-keuda.github.io/Pelipaikka/FlappyBird/",
         switchVisible: false,
         path: '/kotisivu'
     },
