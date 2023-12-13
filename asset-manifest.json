@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kotisivu/static/css/main.366197b2.css",
-    "main.js": "/kotisivu/static/js/main.0a82a59f.js",
+    "main.css": "/kotisivu/static/css/main.9e16b7a6.css",
+    "main.js": "/kotisivu/static/js/main.2223df84.js",
     "static/js/787.2834b9cf.chunk.js": "/kotisivu/static/js/787.2834b9cf.chunk.js",
     "static/media/keksi.png": "/kotisivu/static/media/keksi.964317ee416a6d3bd4b1.png",
     "static/media/concrete_floor.jpg": "/kotisivu/static/media/concrete_floor.778ffc2f882b9fc1be54.jpg",
@@ -13,12 +13,12 @@
     "static/media/discordBot.png": "/kotisivu/static/media/discordBot.1a43c04ec120166bbff3.png",
     "static/media/jakoavain.jpg": "/kotisivu/static/media/jakoavain.7fa945ed9bae7e97f4eb.jpg",
     "index.html": "/kotisivu/index.html",
-    "main.366197b2.css.map": "/kotisivu/static/css/main.366197b2.css.map",
-    "main.0a82a59f.js.map": "/kotisivu/static/js/main.0a82a59f.js.map",
+    "main.9e16b7a6.css.map": "/kotisivu/static/css/main.9e16b7a6.css.map",
+    "main.2223df84.js.map": "/kotisivu/static/js/main.2223df84.js.map",
     "787.2834b9cf.chunk.js.map": "/kotisivu/static/js/787.2834b9cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.366197b2.css",
-    "static/js/main.0a82a59f.js"
+    "static/css/main.9e16b7a6.css",
+    "static/js/main.2223df84.js"
   ]
 }
