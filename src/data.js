@@ -14,7 +14,7 @@ export default [
         path: '/kotisivu'
     },
     {
-        cover: "keksi.gif",
+        cover: "keksi.png",
         title: "Keksi",
         description: "Harjoitus projekti, jonka tein blenderillä.",
         switchVisible: false,

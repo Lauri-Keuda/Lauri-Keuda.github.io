@@ -1,11 +1,11 @@
 import React from 'react'
-import Section2 from '../components/Section2'
-import gif from "../images/keksi.gif"
+import ImgSquare from '../components/ImgSquare'
+import gif from "../images/keksi.png"
 
 function Something() {
   return (
     <div className='Page'>
-      <Section2 />
+      <ImgSquare />
       <img src={gif} alt='this is gif about cookie' height={"300px"}/>
     </div>
   )

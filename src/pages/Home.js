@@ -1,12 +1,12 @@
 import React from 'react'
-import Section1 from '../components/Section1'
-import Section2 from '../components/Section2'
+import Boxrow from '../components/Boxrow'
+import ImgSquare from '../components/ImgSquare'
 
 function Home() {
   return (
     <div className='Page'>
-        <Section1 />
-        <Section2 />
+        <Boxrow />
+        <ImgSquare />
     </div>
   )
 }

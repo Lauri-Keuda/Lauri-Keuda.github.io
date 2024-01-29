@@ -1,5 +1,3 @@
-//import './App.css';
-
 import React from 'react';
 import './Style.css';
 import Navbar from './components/Navbar';
@@ -15,7 +13,6 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <div>
           <Navbar />
           <Routes>
             <Route path="/kotisivu" Component={Home} />
@@ -25,7 +22,6 @@ function App() {
             <Route path='/blender' Component={Blender} />
             <Route path='/game' to="https://lauri-keuda.github.io/MiniGames/FlappyBird/" />
           </Routes>
-        </div>
       </Router>
       <Footer />
     </div>
