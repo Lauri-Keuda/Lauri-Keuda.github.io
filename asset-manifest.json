@@ -1,24 +1,33 @@
 {
   "files": {
-    "main.css": "/kotisivu/static/css/main.9e16b7a6.css",
-    "main.js": "/kotisivu/static/js/main.722e9780.js",
+    "main.css": "/kotisivu/static/css/main.e5fca55f.css",
+    "main.js": "/kotisivu/static/js/main.2c963bed.js",
     "static/js/787.2834b9cf.chunk.js": "/kotisivu/static/js/787.2834b9cf.chunk.js",
+    "static/media/bike.jpg": "/kotisivu/static/media/bike.cd4ccb00350819105916.jpg",
     "static/media/keksi.png": "/kotisivu/static/media/keksi.964317ee416a6d3bd4b1.png",
+    "static/media/Taustakuva.jpg": "/kotisivu/static/media/Taustakuva.d82682c8206b47e72fbb.jpg",
     "static/media/concrete_floor.jpg": "/kotisivu/static/media/concrete_floor.778ffc2f882b9fc1be54.jpg",
     "static/media/Daihatsu.png": "/kotisivu/static/media/Daihatsu.a746bc9907d1dd4c74d5.png",
     "static/media/täysikuu.jpg": "/kotisivu/static/media/täysikuu.5cedd778dc987c0154e9.jpg",
+    "static/media/WebKehitys+React.png": "/kotisivu/static/media/WebKehitys+React.e9342c66ae1a9783b74d.png",
     "static/media/windows.jpeg": "/kotisivu/static/media/windows.644a9f91b596feaaf24b.jpeg",
     "static/media/KasKgts.jpg": "/kotisivu/static/media/KasKgts.1fa2328534bf04fc6136.jpg",
-    "static/media/lataa.png": "/kotisivu/static/media/lataa.3d0e99c90ff567348e12.png",
+    "static/media/friba.png": "/kotisivu/static/media/friba.3d0e99c90ff567348e12.png",
+    "static/media/Blender.png": "/kotisivu/static/media/Blender.5e57f5d619cffbc65a40.png",
+    "static/media/office.png": "/kotisivu/static/media/office.0bb4b4e57f4f511b59be.png",
+    "static/media/CSharp.png": "/kotisivu/static/media/CSharp.53f4ce731e66435122cc.png",
+    "static/media/SQL.png": "/kotisivu/static/media/SQL.d36720d08f12d8650ed0.png",
     "static/media/discordBot.png": "/kotisivu/static/media/discordBot.1a43c04ec120166bbff3.png",
     "static/media/jakoavain.jpg": "/kotisivu/static/media/jakoavain.7fa945ed9bae7e97f4eb.jpg",
+    "static/media/GitHub.png": "/kotisivu/static/media/GitHub.2bf6c405585abeec579c.png",
+    "static/media/VisualStudio.png": "/kotisivu/static/media/VisualStudio.0a9e1e7fc59eb9fcc21b.png",
     "index.html": "/kotisivu/index.html",
-    "main.9e16b7a6.css.map": "/kotisivu/static/css/main.9e16b7a6.css.map",
-    "main.722e9780.js.map": "/kotisivu/static/js/main.722e9780.js.map",
+    "main.e5fca55f.css.map": "/kotisivu/static/css/main.e5fca55f.css.map",
+    "main.2c963bed.js.map": "/kotisivu/static/js/main.2c963bed.js.map",
     "787.2834b9cf.chunk.js.map": "/kotisivu/static/js/787.2834b9cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e16b7a6.css",
-    "static/js/main.722e9780.js"
+    "static/css/main.e5fca55f.css",
+    "static/js/main.2c963bed.js"
   ]
 }
