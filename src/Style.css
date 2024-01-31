@@ -1,5 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code');
+
 :root {
-    --background: #a5d9f1;
+    --background: #10043b;
+    --secondary-background: #080851;
+    --card-background: #190b78; /*dimgery*/
+    --card-text: #b4989d;
+    --dark: #09031e;
+    --border: #1b1bff;
+    --header: #FFFFFF;
+    --button-primary: #c0c0c0;
+    --button-secondary: #505050;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Fira Code, sans-serif;
+}
+
+h1 {
+    font-size: 64px;
+    color: var(--header);
+}
+
+h2 {
+    font-size: 48px;
+    color: var(--header);
+}
+
+h3 {
+    font-size: 32px;
+    color: var(--header);
+}
+
+h4 {
+    font-size: 24px;
+    color: var(--header);
 }
 
 btn, .btn {
@@ -7,7 +46,6 @@ btn, .btn {
 }
 
 p {
-    margin: 0 0 0 0;
     font-size: 20px;
     font-weight: 500;
 }
@@ -23,7 +61,7 @@ p {
     flex-direction: column;
 }
 
-.Page {
+.page {
     padding-top: 10vh;
 }
 
@@ -36,12 +74,13 @@ p {
 }
 
 .Nav-main {
-    background: rgba(0, 0, 0, 0.72);
+    background: var(--dark);
     display: flex;
     position: fixed;
     align-items: center;
     width: 100%;
     height: 10vh;
+    border-bottom: var(--border) 3px solid;
 }
 
 .Nav-header {
@@ -89,15 +128,19 @@ p {
 }
 
 .Foot-main {
-    margin-top: auto;
-    background: rgba(0, 0, 0, 0.9);
     display: flex;
+    margin-top: auto;
     align-items: center;
     width: 100%;
     height: 10vh;
+
+    border-top: var(--border) 2px solid;
+    background: var(--dark);
 }
 
 .Foot-header {
+    margin-left: 25px;
+
     font-style: normal;
     font-weight: 600;
     font-size: 5vh;
@@ -120,6 +163,204 @@ p {
     letter-spacing: -0.07em;
     padding-right: 25px;
 }
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    height: 91vh;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 70%, var(--background) 100%), url("images/Taustakuva.jpg");
+    background-repeat: round;
+    align-items: center;
+}
+
+.banner-header {
+    padding-top: 25vh;
+    border-bottom: var(--header) 5px solid;
+}
+
+.banner-text {
+    padding-top: 10px;
+}
+
+/*---about me---*/
+.aboutMe-container {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin: 0 25px 40px 25px;
+}
+
+.aboutMe-header {
+    align-self: center;
+}
+
+.aboutMe-content {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, 120px);
+    justify-items: center;
+    align-items: center;
+    grid-auto-flow: dense;
+
+    width: fit-content;
+}
+
+.aboutMe-content > * {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.aboutMe-hobbies {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    padding: 10px 30px;
+
+    border-radius: 10px;
+    border: 3px var(--border) solid;
+    background-color: var(--secondary-background);
+}
+
+.aboutMe-skills {
+    grid-column: 5 / 8;
+    grid-row: 1;
+    padding: 10px 30px;
+
+    border-radius: 10px;
+    border: 3px var(--border) solid;
+    background-color: var(--secondary-background);
+}
+
+.aboutMe-friba {
+    grid-column: 3 / 5;
+}
+
+.aboutMe-friba-img {
+    grid-column: 3 / 5;
+    grid-row: 2 / 4;
+}
+
+.aboutMe-games {
+    grid-column: 1 / 3;
+    grid-row: 4;
+}
+
+.aboutMe-games-img {
+    grid-column: 1 / 3;
+    grid-row: 2 / 4;
+}
+
+.aboutMe-cycling {
+    grid-row: 5;
+    grid-column: 1 / 3;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutMe-cycling-img {
+    grid-column: 3 / 5;
+    grid-row: 4 / 6;
+}
+
+.aboutMe-big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.aboutMe-wide {
+    grid-column: span 2;
+}
+
+/*---projects---*/
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pCards-container {
+    display: grid;
+    width: -webkit-fill-available;
+    margin: 40px;
+
+    justify-items: center;
+
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    /* grid-template-rows: repeat(2, fit-content); */
+
+    height: fit-content;
+}
+
+/* ---Project card---*/
+.pCard-container {
+    margin: 50px;
+    height: 400px;
+    width: 350px;
+
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 4fr 1fr 2fr;
+
+    background-color: var(--card-background);
+    border-radius: 15px;
+    overflow: hidden;
+
+    align-content: start;
+}
+
+.pCard-image-container {
+    grid-column: 1 / -1;
+    background-color: orange;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.pCard-image {
+    width: 100%;
+    height: 100%;
+}
+
+.pCard-header {
+    /* grid-column: 1 / 4; */
+
+    justify-content: center;
+    align-self: center;
+    padding: 10px;
+}
+
+.pCard-link {
+    /* grid-column: 4 / 5; */
+    width: fit-content;
+    height: 30px;
+    padding: 3px 10px;
+    margin: auto;
+
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+
+    background-color: var(--button-primary);
+    color: var(--button-secondary);
+    border-radius: 6px;
+}
+
+.pCard-link:hover {
+    background-color: var(--button-secondary);
+    color: var(--button-primary);
+}
+
+.pCard-text {
+    grid-column: 1 / -1;
+    grid-row: 3 / -1;
+
+    color: var(--card-text);
+
+    padding: 0px 10px 10px 10px;
+}
+/* ---Project card---*/
 
 .Boxrow-boxes {
     height: 400px;
@@ -263,7 +504,7 @@ p {
 
 .Person-box {
     display: flex;
-    background-color: #424a9e;
+    background-color: var(--card-background);
     padding: 25px;
     width: fit-content;
     height: auto;

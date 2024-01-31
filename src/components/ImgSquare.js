@@ -1,6 +1,6 @@
 import React from 'react';
 
-import friba from "../images/lataa.png";
+import friba from "../images/friba.png";
 import daihatsu from "../images/Daihatsu.png";
 import taysikuu from '../images/täysikuu.jpg';
 import concrete from "../images/concrete_floor.jpg";

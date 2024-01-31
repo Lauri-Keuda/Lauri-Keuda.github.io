@@ -1,5 +1,6 @@
-export default [
+ const data = [
     {
+        id: "1",
         cover: "discordBot.png",
         title: "Discord bot",
         description: "Discord keskustelu botti, joka on tehty pythonilla.",
@@ -7,6 +8,7 @@ export default [
         path: '/discordbot'
     },
     {
+        id: "2",
         cover: "flappybird.png",
         title: "FlappyBird",
         description: "Tähän on käytetty pelkästään JavaScript, HTML ja CSS. https://lauri-keuda.github.io/Pelipaikka/FlappyBird/",
@@ -14,6 +16,7 @@ export default [
         path: '/kotisivu'
     },
     {
+        id: "3",
         cover: "keksi.png",
         title: "Keksi",
         description: "Harjoitus projekti, jonka tein blenderillä.",
@@ -21,3 +24,5 @@ export default [
         path: '/blender'
     }
 ]
+
+export default data

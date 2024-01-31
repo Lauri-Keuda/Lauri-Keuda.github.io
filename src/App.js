@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import Something from './pages/Something';
 import Discordbot from './pages/Discordbot';
 import Blender from './pages/Blender';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path='/something' Component={Something} />
             <Route path='/discordbot' Component={Discordbot} />
             <Route path='/blender' Component={Blender} />
+            <Route path='/test' Component={Projects} />
             <Route path='/game' to="https://lauri-keuda.github.io/MiniGames/FlappyBird/" />
           </Routes>
       </Router>
