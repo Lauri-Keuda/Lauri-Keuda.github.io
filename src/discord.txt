@@ -1,0 +1,111 @@
+# Discord bot
+Here I will tell about simple discord bot I made using python.
+![discord bot]({discordBot})
+
+## Larw's Bot
+
+I used youtube tutorial to make this bot.
+It doesn't have many features because I didn't have the motivation to continue it.
+
+When the bot is runing you can use it with couple of simple commands.
+First command you would wanna use is *help* to get list of all possible commands.
+Bot gives you this response:
+
+```
+Hei:    tervehdys
+roll:    nopan heitto
+credits:    tekijä
+help:    tämä
+```
+
+I have to mention, that the bot doesn't care if you start with capitalized letter or not.
+Now that we know all the commands there is I'm just going to list then here.
+
+**Hei**
+
+`Hei siellä`
+
+**roll**
+
+Gives random number between 1-6
+
+`e.g. *5*`
+
+**credits**
+
+> Tämän botin on tehnyt *Larw*
+
+There is all the commands but there is still one cool feature.
+Up to this point we have used these commands in some discord server but if we want we can get the response in private message.
+It work by putting exclamation mark at the beginig of the command. Like this `!roll`.
+Now the bot will send the response directly to you and not to the channel you used the command.
+![private message from the bot]({discordBot})
+
+## Some things from the code
+
+```
+import random
+
+def handle_response(message) -> str:
+    p_message = message.lower()
+
+    if p_message == 'hei':
+        return 'Hei siellä!'
+
+    if p_message == 'roll':
+        return str(random.randint(1, 6))
+
+    if p_message == 'help':
+        return "```Hei:\ttervehdys\nroll:\tnopan heitto\ncredits:\ttekijä\nhelp:\ttämä```"
+
+    if p_message == 'credits':
+        return ">>> Tämän botin on tehnyt *Larw*"
+
+    else:
+        return ""
+```
+
+```
+import discord
+import responses
+
+async def send_message(message, user_message, is_private):
+    try:
+        response = responses.handle_response(user_message)
+        if is_private:
+            await message.author.send(response)
+        else:
+            await message.channel.send(response)
+
+    except Exception as e:
+        print(e)
+
+def run_discord_bot():
+    TOKEN = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+    intents = discord.Intents.default()
+    intents.message_content = True
+    client = discord.Client(intents=intents)
+
+    @client.event
+    async def on_ready():
+        print(f'{client.user} is now running!')
+
+    @client.event
+    async def on_message(message):
+        if message.author == client.user:
+            return
+
+        username = str(message.author)
+        user_message = str(message.content)
+        channel = str(message.channel)
+
+        print(f"{username} said: '{user_message}' ({channel})")
+
+        if user_message[0] == '?':
+            user_message = user_message[1:]
+            await send_message(message, user_message, is_private=True)
+        else:
+            await send_message(message, user_message, is_private=False)
+
+    client.run(TOKEN)
+```

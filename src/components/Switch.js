@@ -13,7 +13,7 @@ export default function Switch() {
   const [isClicked, setIsClicked] = useState(false);
 
   function handleClick() {
-    isClicked ? setIsClicked(false) : setIsClicked(true);
+    setIsClicked(!isClicked);
   }
 
   return (

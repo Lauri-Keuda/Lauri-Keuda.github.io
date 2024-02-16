@@ -12,7 +12,7 @@ import office from "../images/office.png"
 const AboutMe = () => {
   return (
     <div className="aboutMe-container">
-      <h2 className="aboutMe-header">About me</h2>
+      <h2 className="chapter-header">About me</h2>
       <div className="aboutMe-content">
         <h3 className="aboutMe-hobbies">Hobbies</h3>
         <h3 className="aboutMe-friba">Disc golf ↓</h3>
@@ -21,7 +21,7 @@ const AboutMe = () => {
         <img className="aboutMe-games-img" src={games} alt="Video games" />
         <div className="aboutMe-cycling">
           <h3>Biking →</h3>
-          <h3>(not my main bike :D)</h3>
+          <h4>(not my main bike :D)</h4>
         </div>
         <img className="aboutMe-cycling-img" src={bike} alt="bikes" />
         <h3 className="aboutMe-skills">Skills</h3>

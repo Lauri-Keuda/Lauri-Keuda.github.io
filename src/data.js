@@ -3,7 +3,7 @@
         id: "1",
         cover: "discordBot.png",
         title: "Discord bot",
-        description: "Discord keskustelu botti, joka on tehty pythonilla.",
+        description: "Discord chatbot that I made with Python",
         switchVisible: false,
         path: '/discordbot'
     },
@@ -11,15 +11,15 @@
         id: "2",
         cover: "flappybird.png",
         title: "FlappyBird",
-        description: "Tähän on käytetty pelkästään JavaScript, HTML ja CSS. https://lauri-keuda.github.io/Pelipaikka/FlappyBird/",
+        description: "Here is used only JavaScript, HTML and CSS. https://lauri-keuda.github.io/Pelipaikka/FlappyBird/",
         switchVisible: false,
-        path: '/kotisivu'
+        path: '/game'
     },
     {
         id: "3",
         cover: "keksi.png",
-        title: "Keksi",
-        description: "Harjoitus projekti, jonka tein blenderillä.",
+        title: "Cookie",
+        description: "Practice project I made in Blender",
         switchVisible: false,
         path: '/blender'
     }

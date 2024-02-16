@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const ProjectCard = (props) => {
   return (
-    <div id={props.id} className="pCard-container">
+    <div className="pCard-container">
       <div className="pCard-image-container">
         <img className="pCard-image" src={require(`../images/${props.cover}`)} alt='something went wrong' />
       </div>
