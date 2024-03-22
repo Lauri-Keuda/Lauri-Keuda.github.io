@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cd804cf4.css",
-    "main.js": "/static/js/main.7ab33ef6.js",
+    "main.js": "/static/js/main.61676bef.js",
     "static/js/787.2834b9cf.chunk.js": "/static/js/787.2834b9cf.chunk.js",
     "static/media/bike.jpg": "/static/media/bike.cd4ccb00350819105916.jpg",
     "static/media/keksi.png": "/static/media/keksi.964317ee416a6d3bd4b1.png",
@@ -13,6 +13,7 @@
     "static/media/WebKehitys+React.png": "/static/media/WebKehitys+React.e9342c66ae1a9783b74d.png",
     "static/media/windows.jpeg": "/static/media/windows.644a9f91b596feaaf24b.jpeg",
     "static/media/KasKgts.jpg": "/static/media/KasKgts.1fa2328534bf04fc6136.jpg",
+    "static/media/react-apps.png": "/static/media/react-apps.b5d1f40cd1e44d2ea5c9.png",
     "static/media/friba.png": "/static/media/friba.3d0e99c90ff567348e12.png",
     "static/media/Blender.png": "/static/media/Blender.5e57f5d619cffbc65a40.png",
     "static/media/discordBot2.png": "/static/media/discordBot2.b188ab77e88b49af94b4.png",
@@ -25,11 +26,11 @@
     "static/media/VisualStudio.png": "/static/media/VisualStudio.0a9e1e7fc59eb9fcc21b.png",
     "index.html": "/index.html",
     "main.cd804cf4.css.map": "/static/css/main.cd804cf4.css.map",
-    "main.7ab33ef6.js.map": "/static/js/main.7ab33ef6.js.map",
+    "main.61676bef.js.map": "/static/js/main.61676bef.js.map",
     "787.2834b9cf.chunk.js.map": "/static/js/787.2834b9cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd804cf4.css",
-    "static/js/main.7ab33ef6.js"
+    "static/js/main.61676bef.js"
   ]
 }
